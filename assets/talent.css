@@ -1,0 +1,247 @@
+.search-section h3 {
+  margin-bottom: 0;
+}
+
+.search-section-p {
+  font-size: 0.8rem;
+}
+
+.cand-search-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.cand-search-container h3 {
+  font-size: 1rem;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: url(../assets/images/263903686.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.cand-search-card,
+.emp-search-card {
+  height: auto;
+  margin-bottom: 1rem;
+  padding: 0.1rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.cand-search,
+.emp-search {
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: -23px 0 1rem 0;
+  /* margin: 0.8rem 0; */
+  color: #000000;
+}
+
+.emp-search {
+  margin: 5px 0 1rem 0;
+}
+
+.cand-search--text,
+.emp-search-text {
+  font-size: 0.8rem;
+  color: #5a5252;
+}
+
+.search-section h3:after {
+  content: "";
+  display: block;
+  border-bottom: 2px #ddc026 inset;
+  margin-bottom: 0;
+}
+.search-section-p {
+  margin: 0.5rem 1rem 0 1rem;
+}
+
+.cand-search-card-body,
+.emp-search-card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5rem 0.7rem 0.9rem 0.7rem;
+  box-shadow: 0px 6px 10px 0px rgb(120 105 17 / 39%);
+  border-radius: 0.5rem;
+  background-color: #ffffff66;
+  backdrop-filter: blur(10px);
+}
+
+.cand-search-text,
+.emp-search-text {
+  font-weight: normal;
+  font-size: small;
+  margin-top: 1rem;
+}
+.search-btn {
+  padding: 0.8rem;
+}
+
+.mag-glass {
+  transform: rotate(45deg);
+  width: 8rem;
+}
+
+.resume-icon {
+  transform: rotate(45deg);
+  width: 7rem;
+}
+
+@media screen and (min-width: 375px) {
+  .cand-search-text,
+  .emp-search-text,
+  .as-education-text,
+  .tut-education-text,
+  .search-section-p {
+    font-size: 1rem;
+  }
+  .search-section-p {
+    margin: 0.5rem 2rem 0 2rem;
+  }
+  .emp-search-text {
+    padding: 0 .5rem;
+  }.as-education-section-p {
+    padding: 0 .3rem;
+  }
+}
+@media screen and (min-width:414px) {
+  .search-section-p {
+    margin: 0.5rem 3rem 0 3rem;
+  }
+  .emp-search-text {
+    padding: 0 .5rem;
+}
+}
+
+@media screen and (min-width: 600px) {
+  .cand-search-card-body,
+  .emp-search-card-body {
+    padding: 1rem 2.5rem;
+  }
+  .search-section h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .search-section-p {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    padding: 0 1.5rem;
+  }
+  .cand-search-title-container,
+  .emp-search-title-container {
+    display: flex;
+    align-items: center;
+  }
+  .cand-search,
+  .emp-search {
+    font-size: 39px;
+    margin-left: -5px;
+  }
+  .emp-search {
+    margin-left: 15px;
+  }
+  .cand-search-text {
+    margin-top: -1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cand-search-container {
+    width: 96vw;
+    /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%); */
+    /* background-color: #ffffffab; */
+  }
+  .cand-search-card,
+  .emp-search-card {
+    padding: 1rem 1rem;
+  }
+  .cand-search-card-body,
+  .emp-search-card-body {
+    padding: 2rem 2.5rem;
+    /* box-shadow: 0px 6px 12px 2px rgb(0 0 0 / 50%); */
+    background-color: #ffffffab;
+  }
+  .cand-search {
+    font-size: 55px;
+    margin-left: -5px;
+    margin-top: 1px;
+  }
+  .mag-glass {
+    margin-left: -25px;
+  }
+  .emp-search {
+    font-size: 54px;
+  }
+  .resume-icon {
+    margin-top: -25px;
+  }
+  .cand-search-text,
+  .emp-search-text {
+    font-weight: normal;
+    font-size: 1rem;
+    min-width: 410px;
+  }
+  .emp-search-text {
+    font-weight: normal;
+    font-size: 1rem;
+    min-width: 419px;
+  }
+  .cand-search-text {
+    padding-top: 23px;
+  }
+  .search-section h3 {
+    font-size: 4rem;
+    margin-top: 27px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cand-search-container {
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 85vw;
+  }
+  .cand-search,
+  .emp-search {
+    text-align: left;
+    font-size: 3.5rem;
+    line-height: 3rem;
+  }
+  .search-section h3 {
+    font-size: 4rem;
+  }
+  .search-section-p {
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+    /* padding: 0 8rem; */
+  }
+  .cand-search-text {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .cand-search-text {
+    margin-top: 4px;
+  }
+  /* .cand-search-text {
+    margin: 6px 0 27px 0;
+  } */
+  .cand-search-card-body {
+    max-width: 410px;
+  }
+  .emp-search-card-body {
+    max-width: 418px;
+  }
+  /* .emp-search-text {
+    padding-top: 1rem;
+  } */
+}
