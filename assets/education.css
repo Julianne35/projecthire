@@ -152,6 +152,7 @@
   .education-section-p {
     font-size: 1rem;
     margin-top: 0.2rem;
+    letter-spacing: -.5px;
   }
   .assessment-title-container,
   .tutorial-title-container {
@@ -178,6 +179,9 @@
   .as-education-card-body,
   .tut-education-card-body {
     padding: 2rem 19px;
+  }
+  .education-section-p {
+    letter-spacing: 0;
   }
   .education-section h3:after {
     width: 70vw;
@@ -238,7 +242,6 @@
     font-size: 1.1rem;
     margin-top: 0.2rem;
     padding: 0 7rem;
-    height: 100px;
   }
   .get-results-text {
     padding-top: 2rem;
@@ -257,9 +260,6 @@
   .tut-education-card {
     margin-right: 1rem;
   }
-  /* .tut-education-card-body {
-    padding: 3rem 2.5rem 3rem 2.5rem;
-  } */
   .education-section h3:after {
     width: 54vw;
   }
