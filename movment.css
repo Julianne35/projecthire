@@ -1,0 +1,136 @@
+.movement-section h3 {
+  margin: 2rem 0 1.5rem 0;
+  color: #ba2723;
+  font-weight: 900;
+  line-height: 1.8rem;
+}
+.movement-section h3:after {
+  content: "";
+  display: block;
+  margin-bottom: 0;
+  border-bottom: 2px #917e5d inset;
+}
+.movement-section-p {
+  font-size: 0.8rem;
+  height: auto;
+}
+.movement-text {
+  margin: 1rem 0 0 0;
+  text-align: center;
+  padding: 6px 16px 0 16px;
+}
+.movement-card-body {
+  border-radius: 0.5rem;
+  backdrop-filter: blur(8px);
+  background-color: #fffbf38c;
+  box-shadow: 0px 6px 10px 0px rgb(218 204 188);
+  margin-bottom: 3rem;
+}
+.movement-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  background: url("../assets/images/celebrate.jpg") no-repeat center;
+  background-size: cover;
+}
+.movement-section h3:after {
+  content: "";
+  display: block;
+  border-bottom: 2px #363231 inset;
+  margin: 0.5rem 0 0 0;
+}
+
+.movement-btn {
+  padding: 0.8rem 3rem;
+  background: #ba2723;
+  color: #e9eaec;
+  margin: 0.8rem;
+  box-shadow: 0px 0px 0px #c5c5c5, 0px 0px 4px 0px #ffffff;
+}
+.movement-btn:hover {
+  background-color: white;
+  color: #091336;
+}
+.square {
+  width: 100vw;
+  border-radius: 0.5rem;
+}
+.get-results-text {
+  margin: 1rem 0 0 0;
+  text-align: center;
+}
+.movement-parallax {
+  background-image: url("../assets/images/target.jpeg");
+  min-height: 200px;
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0rem #ffffffc2 solid;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 414px) {
+  .movement-card-body {
+    padding: 0.5rem;
+  }
+  .get-results-span {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .movement-section h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .movement-section h3:after {
+    width: 70vw;
+    border-bottom: 2px #917e5d inset;
+    margin-top: 0.5rem;
+  }
+  .movement-btn {
+    margin-top: 0.5rem;
+  }
+  .movement-parallax {
+    min-height: 300px;
+  }
+  .movement-section h3 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .movement-section h3 {
+    font-size: 3rem;
+  }
+  .movement-card-body {
+    padding: 1.8rem 2rem;
+    max-width: 68vw;
+  }
+  .get-results-text {
+    padding-top: 2rem;
+    font-size: 5rem;
+  }
+  .movement-parallax {
+    min-height: 400px;
+  }
+  .movement-parallax {
+    background-image: url("../assets/images/target.jpeg");
+    background-attachment: fixed;
+    min-height: 400px;
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .movement-section h3:after {
+    width: 54vw;
+  }
+}

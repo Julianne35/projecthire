@@ -1,0 +1,311 @@
+h1,
+h3,
+h4,
+p {
+  font-family: "Roboto";
+  letter-spacing: 0.2px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  line-height: 32px;
+}
+h3 {
+  font-size: 2rem;
+}
+.projecthire-card h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem;
+  font-weight: 900;
+  padding: 0 1rem;
+}
+.projecthire-card h3::after {
+  content: "";
+  display: block;
+  border-bottom: 2px #ddc026 inset;
+  margin-top: 0.5rem;
+}
+h4 {
+  font-size: 0.8rem;
+  margin: -1rem 0 3rem 0;
+}
+.project-card-p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+span {
+  /* color: #d1b419; */
+  color: #a58d12;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section-header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: auto;
+  border: 1px gray solid;
+  background: url(../assets/images/header-image-small.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 0 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.find-next-job-card,
+.hire-talent-card {
+  height: 9rem;
+  margin-bottom: 1rem;
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  background-color: #ffffffab;
+  backdrop-filter: blur(2px);
+}
+.projecthire-card {
+  padding-bottom: 3rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.8235002619211748) 48%,
+    rgba(2, 0, 36, 0) 100%
+  );
+  padding: 1rem 0.5rem;
+  backdrop-filter: blur(2px);
+}
+.hire-talent,
+.find-job {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0.7rem 0;
+  text-transform: capitalize;
+}
+.hire-talent-text,
+.get-prepared-text {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.btn,
+.search-btn,
+.education-btn,
+.tut-education-btn,
+.movement-btn,
+.team-btn {
+  font-size: 0.8rem;
+  color: #090909;
+  padding: 0.8rem 2rem;
+  border-radius: 0.3rem;
+  background: #d1b419;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+}
+.search-btn,
+.education-btn,
+.tut-education-btn {
+  padding: 0.8rem;
+  background: #d1b419;
+  color: #091336;
+}
+.search-btn:hover,
+.education-btn:hover,
+.tut-education-btn:hover {
+  background-color: #091336;
+  color: white;
+}
+
+.movement-btn:hover,
+.team-btn:hover {
+  background-color: white;
+  color: #091336;
+}
+.btn:hover {
+  background-color: #091336;
+  color: white;
+}
+.btn:active,
+.search-btn:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+@media screen and (min-width: 375px) {
+  .projecthire-card h3 {
+    padding: 0;
+    letter-spacing: -0.8px;
+    font-weight: 600;
+  }
+  .hire-talent-text,
+  .get-prepared-text {
+    font-size: 0.9rem;
+  }
+  .project-card-p {
+    font-size: 1rem;
+    padding: 0 0.8rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 3rem;
+  }
+  .comming-soon {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+  .projecthire-card {
+    padding: 1rem 2.9rem;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(255 255 255 / 88%) 48%,
+      rgb(2 0 36 / 0%) 100%
+    );
+  }
+  .projecthire-card h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .project-card-p {
+    font-size: 1rem;
+  }
+  .hire-talent,
+  .find-job {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .btn,
+  .search-btn {
+    font-size: 0.9rem;
+    padding: 0.8rem 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4.8rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  .projecthire-card {
+    padding: 1rem 4.9rem;
+  }
+  .projecthire-card h3 {
+    font-size: 1.8rem;
+  }
+  .find-next-job-card,
+  .hire-talent-card {
+    padding: 0.8rem;
+  }
+  .hire-talent,
+  .find-job {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .btn,
+  .search-btn {
+    font-size: 0.9rem;
+    padding: 0.8rem 2rem;
+  }
+}
+
+@media screen and (min-width: 991px) {
+.project-card-p {
+  letter-spacing: -.5px;
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+    text-align: center;
+    max-width: 1400px;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  .section-header {
+    margin: 2rem;
+    padding: 5rem;
+    height: auto;
+    background: url(../assets/images/recruiter.jpeg) no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+  }
+  .hire-talent-card,
+  .projecthire-card,
+  .find-next-job-card {
+    padding: 1.1rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  }
+  .projecthire-card {
+    padding: 1rem 6rem;
+    backdrop-filter: blur(3px);
+  }
+  .project-card-p {
+    font-weight: 500;
+  }
+  .find-next-job-card,
+  .hire-talent-card {
+    background-color: #ffffffab;
+    padding: 0 0 3rem 0;
+  }
+  .hire-talent,
+  .find-job {
+    margin-bottom: 0.8rem;
+  }
+  .card-body {
+    padding: 1rem 1rem;
+  }
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  p {
+    letter-spacing: 0.1px;
+  }
+  .container {
+    flex-direction: row;
+  }
+  .find-next-job-card,
+  .hire-talent-card {
+    width: 30vw;
+    padding-bottom: 2rem;
+    background-color: #ffffffab;
+  }
+  .hire-talent-card {
+    margin-right: 1rem;
+  }
+  .project-card-p {
+    font-size: 1.1rem;
+  }
+}
